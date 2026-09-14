@@ -1,0 +1,23 @@
+# Django <3.1.6 – CVE-2021-3281 (High/Critical depending on distro)
+Django==3.1.5
+
+# Jinja2 <2.11.3 – CVE-2020-28493 (High)
+Jinja2==2.11.2
+
+# PyYAML <5.4 – CVE-2020-14343 (High)
+PyYAML==5.3.1
+
+# urllib3 <1.26.5 – CVE-2021-33503 (High)
+urllib3==1.25.11
+
+# lxml <4.6.5 – CVE-2021-43818 (High)
+lxml==4.6.4
+
+# requests uses urllib3; including it for realism
+requests==2.25.0
+
+# pillow <8.3.2 – CVE-2021-23437 (High)
+Pillow==8.2.0
+
+# cryptography <3.3.2 – CVE-2020-36242 (High)
+cryptography==3.2
