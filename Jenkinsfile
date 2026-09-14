@@ -62,6 +62,7 @@ stage('semgrep-scan') {
         --memory-swap=8g \
         -e SEMGREP_APP_TOKEN="$SEMGREP_APP_TOKEN" \
         -e SEMGREP_REPO_NAME="$SEMGREP_REPO_NAME" \
+        -e SEMGREP_REPO_URL="https://github.com/dash5ast/MatrixRepo" \
         -v "$(pwd):$(pwd)" --workdir "$(pwd)" \
         --entrypoint /bin/sh \
         semgrep/semgrep \
