@@ -20,4 +20,4 @@ requests==2.25.0
 Pillow==8.2.0
 
 # cryptography <3.3.2 – CVE-2020-36242 (High)
-cryptography==3.2
+cryptography==39.0.1
